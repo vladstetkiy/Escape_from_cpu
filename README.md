@@ -27,7 +27,10 @@ ST7789 Display:
 - CS    → Pin 10
 - DC    → Pin 8
 - RST   → Pin 9
+- MOSI  → Pin 11
+- SCK   → Pin 13
 - VCC   → 5V
+- LED   → 5V
 - GND   → GND
 
 Movement Joystick:
@@ -39,3 +42,7 @@ Camera Joystick:
 - VRx   → A1
 - VRy   → A0
 - SW    → Pin 3 (PULLUP)
+```
+### 2. Software Setup
+
+Download the .ino file to your pc and upload the sketch to the microcontroller using arduino ide
